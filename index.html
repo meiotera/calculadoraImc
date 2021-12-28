@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="text">
+            <h1>Calculadora IMC</h1>
+
+            <div class="tabelaImc">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>IMC</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Menos do que 18.5</td>
+                            <td>Abaixo do Peso</td>
+                        </tr>
+                        <tr>
+                            <td>Entre 18.5 e 24.9</td>
+                            <td>Peso nomal</td>
+                        </tr>
+                        <tr>
+                            <td>Entre 25 e 29.90</td>
+                            <td>Sobrepeso</td>
+                        </tr>
+                        <tr>
+                            <td>Entre 30 e 34.9</td>
+                            <td>Obesidade grau 1</td>
+                        </tr>
+                        <tr>
+                            <td>Entre 35 e 39.9</td>
+                            <td>Obesidade grau 1</td>
+                        </tr>
+                        <tr>
+                            <td>Mais do que 40</td>
+                            <td>Obesidade grau 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <form action="" method="get" class="form">
+            <label for="name"> Nome
+                <input type="text" id="nome" placeholder="Digite seu primeiro nome">
+            </label>
+
+            <label for="sobrenome"> Sobrenome
+                <input type="text" id="sobrenome" placeholder="Digite seu sbrenome">
+            </label>
+
+            <label for="peso"> Peso
+                <input type="text" id="peso" placeholder="Digite seu peso">
+            </label>
+
+            <label for="altura"> Altura
+                <input type="text" id="altura" placeholder="Digite sua altura">
+            </label>
+
+            <div class="resultado" id="cor"></div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
